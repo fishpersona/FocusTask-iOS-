@@ -23,7 +23,7 @@ jobs:
         run: xcodebuild -version
 
       - name: Extract source
-        run: unzip -q FocusTask-GitHub-Source.zip -d source
+        run: unzip -q FocusTask-GitHub-Source-v2.zip -d source
 
       - name: Build unsigned IPA
         run: |
